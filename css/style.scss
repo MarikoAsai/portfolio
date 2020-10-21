@@ -238,7 +238,7 @@ header > .container {
   padding: 0 0 20px;
   position: relative;
   @include mq(sp) {
-    font-size:30px;
+    font-size: 30px;
   }
 }
 .head_home .title::after {
@@ -255,7 +255,7 @@ header > .container {
 .head_home p {
   font-size: 20px;
   @include mq(sp) {
-    font-size:15px;
+    font-size: 15px;
   }
 }
 
@@ -273,7 +273,6 @@ header > .container {
     margin: 0 -40px;
     vertical-align: bottom;
     align-items: center;
-    
   }
 }
 
@@ -286,7 +285,6 @@ header > .container {
     width: 70%;
     padding: 0 40px;
     height: 400px;
-    
   }
 }
 
@@ -296,7 +294,7 @@ header > .container {
   @include mq(sp) {
     margin: 0 auto;
     width: 90%;
-    font-size:16px;
+    font-size: 16px;
     line-height: 1.5;
   }
   @include mq(pc) {
@@ -307,7 +305,6 @@ header > .container {
     transform: translate(-50%, -50%);
     font-size: 18px;
     line-height: 1.7;
-    
   }
 
   a {
@@ -334,10 +331,8 @@ header > .container {
 ====================================================*/
 .list_service {
   @include mq(sp) {
-    
   }
   @include mq(pc) {
-    
     display: flex;
     flex-wrap: wrap;
     margin: -20px;
@@ -380,12 +375,20 @@ header > .container {
 /*==================================================
 # work
 ====================================================*/
+.area_home_work {
+  padding-bottom: 0;
+}
+.area_home_work > .container {
+  background: url(../img/flower3@2x.jpg) bottom right/15% no-repeat;
+  @include mq(sp) {
+    background: url(../img/flower3@2x.jpg) bottom right/20% no-repeat;
+  }
+}
 
 .list_work {
   @include mq(pc) {
     display: flex;
     flex-wrap: wrap;
-    
   }
 }
 
@@ -396,7 +399,6 @@ header > .container {
   @include mq(pc) {
     width: 45%;
     margin: 10px;
-    
   }
   position: relative;
 }
@@ -492,7 +494,7 @@ textarea {
 .contact_item_title {
   font-size: 18px;
   @include mq(sp) {
-    font-size:16px;
+    font-size: 16px;
   }
 }
 
@@ -521,7 +523,6 @@ footer {
   padding: 10px 0;
   @include mq(sp) {
     padding: 5px 0;
-    
   }
 }
 .twitter img {
@@ -530,7 +531,6 @@ footer {
   @include mq(sp) {
     width: 20px;
     height: 20px;
-    
   }
 }
 
@@ -540,6 +540,5 @@ footer {
   @include mq(sp) {
     font-size: 12px;
     margin-top: 5px;
-    
   }
 }

@@ -479,6 +479,20 @@ header > .container {
 /*==================================================
 # work
 ====================================================*/
+.area_home_work {
+  padding-bottom: 0;
+}
+
+.area_home_work > .container {
+  background: url(../img/flower3@2x.jpg) bottom right/15% no-repeat;
+}
+
+@media screen and (max-width: 767px) {
+  .area_home_work > .container {
+    background: url(../img/flower3@2x.jpg) bottom right/20% no-repeat;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .list_work {
     display: -webkit-box;
