@@ -454,7 +454,7 @@ header > .container {
   .list_service > li {
     margin-top: 20px;
     padding: 20px 20px 20px;
-    height: 250px;
+    height: 200px;
   }
 }
 
@@ -474,6 +474,12 @@ header > .container {
   font-size: 18px;
   line-height: 1.4;
   text-align: justify;
+}
+
+@media screen and (max-width: 767px) {
+  .list_service .description {
+    font-size: 16px;
+  }
 }
 
 /*==================================================
@@ -525,8 +531,20 @@ header > .container {
   line-height: 1.4;
 }
 
+@media screen and (max-width: 767px) {
+  .list_work > li p {
+    font-size: 16px;
+  }
+}
+
 .list_work > li p span {
   font-size: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .list_work > li p span {
+    font-size: 14px;
+  }
 }
 
 .list_work > li img {
@@ -638,6 +656,13 @@ textarea {
   display: block;
   font-size: 20px;
   font-family: "TsukuARdGothic-Regular", sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+  .contact_btn .btn_ico_mail {
+    width: 180px;
+    font-size: 18px;
+  }
 }
 
 /*==================================================
