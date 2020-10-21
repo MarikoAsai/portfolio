@@ -376,9 +376,8 @@ header > .container {
 # work
 ====================================================*/
 .area_home_work {
-  padding-bottom: 0;
-}
-.area_home_work > .container {
+  max-width: 1600px;
+  margin: 0 auto;
   background: url(../img/flower3@2x.jpg) bottom right/15% no-repeat;
   @include mq(sp) {
     background: url(../img/flower3@2x.jpg) bottom right/20% no-repeat;
